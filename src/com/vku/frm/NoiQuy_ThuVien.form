@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <Component id="jLabel1" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jButton1" pref="58" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="T&#x1ea5;t c&#x1ea3; c&#xe1;c th&#xe0;nh vi&#xea;n trong nh&#xe0; tr&#x1b0;&#x1edd;ng &#x111;&#x1ec1;u l&#xe0; b&#x1ea1;n &#x111;&#x1ecd;c c&#x1ee7;a th&#x1b0; vi&#x1ec7;n. B&#x1ea1;n &#x111;&#x1ecd;c c&#x1ea7;n th&#x1ef1;c hi&#x1ec7;n &#x111;&#xfa;ng c&#xe1;c quy &#x111;&#x1ecb;nh sau:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1. V&#xe0;o th&#x1b0; vi&#x1ec7;n, gi&#x1eef; g&#xec;n tr&#x1ead;t t&#x1ef1;, im l&#x1eb7;ng v&#xe0; gi&#x1eef; v&#x1ec7; sinh chung."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="2. &#x110;&#x1ec3; m&#x1b0;&#x1ee3;n s&#xe1;ch, b&#x1ea1;n &#x111;&#x1ecd;c ph&#x1ea3;i xu&#x1ea5;t tr&#xec;nh th&#x1ebb; th&#x1b0; vi&#x1ec7;n. T&#xf9;y theo t&#x1eeb;ng lo&#x1ea1;i s&#xe1;ch, c&#xe1;n b&#x1ed9; th&#x1b0; vi&#x1ec7;n s&#x1ebd; quy &#x111;&#x1ecb;nh s&#x1ed1; l&#x1b0;&#x1ee3;ng v&#xe0; th&#x1edd;i gian m&#x1b0;&#x1ee3;n."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="3. N&#x1ebf;u ch&#x1b0;a &#x111;&#x1ecd;c xong, b&#x1ea1;n &#x111;&#x1ecd;c &#x111;&#x1ebf;n th&#x1b0; vi&#x1ec7;n xin gia h&#x1ea1;n. Ch&#x1b0;a tr&#x1ea3; s&#xe1;ch c&#x169; kh&#xf4;ng &#x111;&#x1b0;&#x1ee3;c m&#x1b0;&#x1ee3;n s&#xe1;ch m&#x1edb;i."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="4. B&#xe1;o, t&#x1ea1;p ch&#xed; v&#xe0; m&#x1ed9;t s&#x1ed1; s&#xe1;ch qu&#xfd; hi&#x1ebf;m ch&#x1ec9; &#x111;&#x1b0;&#x1ee3;c s&#x1eed; d&#x1ee5;ng t&#x1ea1;i ch&#x1ed7;, kh&#xf4;ng m&#x1b0;&#x1ee3;n mang v&#x1ec1; nh&#xe0;."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="5. S&#xe1;ch b&#xe1;o l&#xe0; t&#xe0;i s&#x1ea3;n chung, m&#x1ecd;i ng&#x1b0;&#x1edd;i ph&#x1ea3;i c&#xf3; tr&#xe1;ch nhi&#x1ec7;m b&#x1ea3;o qu&#x1ea3;n gi&#x1eef; g&#xec;n s&#xe1;ch b&#xe1;o c&#x1ea9;n th&#x1ead;n, kh&#xf4;ng l&#xe0;m r&#xe1;ch, b&#x1ea9;n, vi&#x1ebf;t, v&#x1ebd;, &#x111;&#xe1;nh d&#x1ea5;u v&#xe0;o s&#xe1;ch"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="6. B&#x1ea1;n &#x111;&#x1ecd;c l&#xe0;m m&#x1ea5;t s&#xe1;ch ph&#x1ea3;i &#x111;&#x1ec1;n s&#xe1;ch m&#x1edb;i ho&#x1eb7;c &#x111;&#x1ec1;n t&#x1b0;&#x1a1;ng &#x111;&#x1b0;&#x1a1;ng v&#x1edb;i gi&#xe1; tr&#x1ecb; th&#x1ef1;c t&#x1ebf;. N&#x1ebf;u l&#xe0;m h&#x1b0; h&#x1ecf;ng, t&#xf9;y theo m&#x1ee9;c &#x111;&#x1ed9; ph&#x1ea3;i b&#x1ed3;i th&#x1b0;&#x1edd;ng th&#x1ecf;a &#x111;&#xe1;ng."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="7. B&#x1ea1;n &#x111;&#x1ecd;c n&#xe0;o vi ph&#x1ea1;m n&#x1ed9;i quy, t&#xf9;y theo m&#x1ee9;c &#x111;&#x1ed9; th&#x1b0; vi&#x1ec7;n s&#x1ebd; c&#xf3; h&#xec;nh th&#x1ee9;c x&#x1eed; l&#xfd; th&#xed;ch h&#x1ee3;p.  "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/com/vku/frm/Exit.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tho&#xe1;t"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="24" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/com/vku/frm/rules-icon.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="N&#x1ed8;I QUY TH&#x1af; VI&#x1ec6;N"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/com/vku/frm/VKU-removebg-preview (1).png"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
