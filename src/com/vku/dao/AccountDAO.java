@@ -18,9 +18,9 @@ import java.util.logging.Logger;
  * @author admin!
  */
 public class AccountDAO {
-
+    
     public static boolean checkLogin(Account account) {
-
+        
         try {
             String sql = "select * from Account where Username=? and Password=?";
 //            String sql = "select * from Account where Username='" + account.getUsername() + "' and Password='" + account.getPassword() + "'";
@@ -28,39 +28,40 @@ public class AccountDAO {
             ps.setString(1, account.getUsername());
             ps.setString(2, account.getPassword());
             ResultSet rs = ps.executeQuery();
-
-            if (rs.next()) {
+            
+            if(rs.next()) {
                 return true;
             }
-
-        } catch (SQLException ex) {
+            
+        } catch (SQLException ex) { 
             Logger.getLogger(AccountDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
-
+        
         return false;
     }
-
-    // check
-//    public static void main(String[] args) {
-//        if (AccountDAO.insert(new Account("trinh", "123", "123"))) {
+    
+//    // check
+//     public static void main(String[] args){
+//        if(AccountDAO.insert(new Account("trinh", "123", "123"))){
 //            System.out.println("Y");
-//        } else {
+//        }else{
 //            System.out.println("N");
 //        }
 //    }
-
-    public static boolean insert(Account account) {
+     
+     
+    public static boolean insert(Account account){
         try {
             System.out.println(account);
-            String sql = "INSERT INTO Account(username, password, enterpassword) VALUES (?, ?, ?)";
+            String sql = "INSERT INTO Account(username, password, enterpassword) VALUES (?, ?, ?)" ;
             PreparedStatement ps = Database.getConnection().prepareStatement(sql);
             ps.setString(1, account.getUsername());
             ps.setString(2, account.getPassword());
             ps.setString(3, account.getEnterpassword());
-
+           
             int check = ps.executeUpdate();
             System.out.println("check: " + check);
-            if (check == 1) {
+            if(check == 1) {
                 return true;
             }
             return false;
@@ -69,16 +70,37 @@ public class AccountDAO {
             return false;
         }
 
+      }  
+    public static boolean update(Account account) {
+    try {
+        System.out.println(account);
+        String sql = "UPDATE Account SET Password = ?, enterpassword = ? WHERE Username = ?";
+        PreparedStatement ps = Database.getConnection().prepareStatement(sql);
+        ps.setString(1, account.getPassword());
+        ps.setString(2, account.getEnterpassword());
+        ps.setString(3, account.getUsername());
+
+        int check = ps.executeUpdate();
+        System.out.println("check: " + check);
+        if (check == 1) {
+            return true;
+        }
+        return false;
+    } catch (SQLException ex) {
+        Logger.getLogger(AccountDAO.class.getName()).log(Level.SEVERE, null, ex);
+        return false;
     }
+}
 
-    public static void main(String[] args) {
-
-//        if (AccountDAO.checkLogin(new Account("user01", "123456"))) {
+     
+//    public static void main(String[] args) {
+//        
+//        if(AccountDAO.checkLogin(new Account("user01", "123456"))) {
 //            System.out.println("Y");
 //        } else {
 //            System.out.println("N");
 //        }
-
-    }
-
+//        
+//   }
+    
 }
